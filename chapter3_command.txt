@@ -1,0 +1,18 @@
+wasmedge --dir .:. \
+  --nn-preload default:GGML:AUTO:Phi-3.5-mini-instruct-Q5_K_M.gguf \
+  llama-chat.wasm \
+  --prompt-template llama-3-chat \
+  --system-prompt "You are a high school science teacher. Explain concepts in very simple English."
+
+[You]: 
+What is Mercury?
+
+[Bot]:
+  ..
+
+
+[You]: 
+But I was talking about the element. Could you provide information about Mercury, the physical element?
+
+[Bot]:
+..
