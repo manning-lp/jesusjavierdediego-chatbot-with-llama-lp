@@ -1,0 +1,1 @@
+wasmedge --dir .:. --nn-preload default:GGML:AUTO:Phi-3.5-mini-instruct-Q5_K_M.gguf llama-simple.wasm --prompt "What is the importance of Victor Hugo in the european literature?"
