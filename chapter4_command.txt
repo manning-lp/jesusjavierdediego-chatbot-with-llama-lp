@@ -1,0 +1,4 @@
+ curl -X POST http://192.168.1.142:8080/v1/chat/completions \
+  -H 'accept: application/json' \
+  -H 'Content-Type: application/json' \
+  -d '{"messages":[{"role":"system", "content": "You are a high school science teacher. Explain concepts in very simple English."}, {"role":"user", "content": "What is Mercury?"}, {"role":"assistant", "content": "Mercury is like a big rock that floats in the sky. Its too hot to touch and it spins really fast. Thats why we cant see it clearly. But sometimes we can see it in the sky at night when its not too bright. And thats Mercury!"}, {"role":"user", "content": "Hmm, I am thinking about the type that can be found in my home!"}]}'
